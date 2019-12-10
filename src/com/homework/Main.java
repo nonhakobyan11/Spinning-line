@@ -6,7 +6,7 @@ public class Main {
         String str = "|/-\\";
         String output = "";
         char l;
-        for (; ;) {
+        while (true) {
             for (int i = 0; i < str.length(); i++) {
                 l = str.charAt(i);
                 System.out.println(l);
